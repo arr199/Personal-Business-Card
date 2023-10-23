@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 317px;
+    margin: 0 auto;
+    font-family: Inter;
+    background: #1C1C1C;;
+    
+}
+
+/*  INTRO COMPONENT  */
+.app{
+
+    max-width: 317px;
+}
+
+.intro {
+    background-color: #1A1B21;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pfp {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.name {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+}
+.job{
+    font-size: 12.8px;
+    color: #F3BF99;
+    margin-bottom: 10px;
+}
+
+.website-link{
+    
+    font-size: 10.25px;
+    color: #F5F5F5;
+    text-decoration: none;
+    transition: .3s;
+    
+    
+}
+
+.website-link:hover,.website-link:focus{
+    color: orange;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.intro p {
+    
+    margin-top: 0;
+}
+
+.intro small{
+    font-size: 10px;
+    color: #F5F5F5;
+  
+}
+
+/*  BUTTONS   */
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1.05em;
+}
+
+.email-btn {
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: gray/700;
+    border: 0;
+    transition: .3s;
+}
+
+
+.email-btn:hover,.email-btn:focus{
+      background-color:#374151;
+      color: #FFFFFF;
+      scale: 1.1;
+      transition: .3s;
+    
+}
+
+
+.linkedin-btn{
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #5093E2;
+    color: #ffffff;
+    border: 0;
+    transition: .3s;
+}
+
+.linkedin-btn:hover,.linkedin-btn:focus{
+    background-color:#374151;
+    color: #ffffff;
+    scale: 1.1;
+    transition: .3s;
+  
+}
+
+
+i {
+    margin-right: 8px;
+    
+}
+
+
+.about-section{
+    
+    background-color: #1A1B21;
+    padding: 33px 40px 20px 40px;
+} 
+
+.about-text{
+    margin: 0;
+    margin-bottom: 5px;
+    color: #F5F5F5;
+}
+
+.about-section > small {
+    
+    color: #DCDCDC;
+}
+
+.interests-section{
+    
+    background-color: #1A1B21;
+    padding: 0 40px 26px 40px;
+   
+    
+}
+.interests-text{
+     margin-top: 0;
+     margin-bottom: 5px;
+     color: #F5F5F5;
+     
+    
+}
+
+.interests-section > small {
+    color: #DCDCDC;
+    
+    }
+    
+    
+footer {
+     display: flex;
+     padding: 20px;
+     background-color: #161619;
+     justify-content: center;
+     gap: 24px;
+     border-radius: 0px 0px 10px 10p;
+     margin-bottom: 50px;
+    }
+
+footer img {
+    
+    cursor: pointer;
+    transition: .3s;
+   
+    
+}
+
+
+footer img:hover,footer img:active{
+    
+    cursor: pointer;
+    scale: 1.4;
+    transition: .3s;
+   
+    
+    
+}
